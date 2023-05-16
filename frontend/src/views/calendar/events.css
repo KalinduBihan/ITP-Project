@@ -1,0 +1,149 @@
+.form-style-adding-form{
+    background-color: #7ca6d7;
+    width: 40%;
+    height: 70%;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px -4px #2B3644;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background-image: linear-gradient(#7ca6d7,#1c6969);
+}
+
+.event-form-style{
+    background-color: #ffffff;
+    width: 60%;
+    height: 70%;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px -4px #2B3644;
+    margin-left: 400px;
+    padding: 2%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.add-btn{
+    width: 25%;
+    font-size: larger;
+    border: 0;
+    padding: 1%;
+    border-radius: 10px;
+    background-color: #422f9a;
+    align-self: center;
+    margin-left: 40%; 
+}
+
+.add-btn:hover{
+    background-color: #3E54AC;
+    cursor: pointer; 
+    font-weight: bold; 
+}
+
+.calendarSection{
+    color: #000;
+}
+
+.pdfBtnCalendar{
+    background-color: #4a9781;
+    display: inline-block;
+    margin-left: 30px;
+    margin-right: 30px;
+    width: 75px;
+    border: 0;
+    color: #fff;
+    padding: 10px;
+    font-family: "Iceberg";
+    font-size: large;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+
+.pdfBtnCalendar:hover{
+    background-color: #0d6b21;
+    cursor: pointer; 
+}
+
+.addBtnCalendar{
+    background-color: #0d7caf;
+    display: inline-block;
+    width: 75px;
+    border: 0; 
+    color: #fdfcfc;
+    padding: 10px;
+    font-family: "Iceberg";
+    font-size: large;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.addBtnCalendar:hover{
+    background-color: #4c91b1;
+    cursor: pointer; 
+}
+.heading{
+    font-size : 30px;
+    text-align: center;
+}
+
+.lables{
+    font-size: 20px;
+}
+.update-form-styles{
+    background-color:#7ca6d7;
+    width: 40%;
+    height: 70%;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px -4px #2B3644;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background-image: linear-gradient(#7ca6d7,#1c6969);
+}
+
+.eveUpdateBtn{
+    width: 25%;
+    display: inline-block;
+    border: 0;
+    font-size: larger;
+    padding: 1.5%;
+    border-radius: 10px;
+    background-color: #a6a257;
+    align-self: center;
+    margin-left: 15%;
+    
+    
+}
+
+.eveUpdateBtn:hover{
+    background-color: #3E54AC;
+    cursor: pointer; 
+    font-weight: bold; 
+}
+ 
+.eveDeleteBtn{
+    width: 25%;
+    border: 0;
+    font-size: larger;
+    padding: 1.5%;
+    border-radius: 10px;
+    background-color: rgb(208, 77, 77);
+    align-self: center;
+    margin-left: 15%;
+    
+}
+
+.eveDeleteBtn:hover{
+    background-color: #3E54AC;
+    cursor: pointer; 
+    font-weight: bold; 
+}
+
+.eveBtnHolder{
+    display: flex;
+}
+ 

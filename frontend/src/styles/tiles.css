@@ -1,0 +1,89 @@
+.main-body{
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+}
+
+.section-heading {
+  color: #2c2c2c;
+  margin: 16px;
+  margin-top: auto;
+  margin-bottom: 15px;
+  font-size: 35px;
+}
+.tiles-common {
+  float: left;
+  width: 20%;
+  margin: 15px;
+  height: 225px;
+  font-size: 28px;
+  color: white;
+  border-radius: 15px;
+  transition: transform 0.3s;
+}
+.tiles-common:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+  box-shadow: 0 8px 32px -4px #2b3644;
+  transition: transform 0.6s;
+}
+
+/* home page */
+.leave-planner-tile {
+  background-color: #ee2e2e;
+  width: 42%;
+}
+.training-tile {
+  background-color: #2b3644;
+}
+.goals-tile {
+  background-color: #2a9aa0;
+}
+.appraials-tile {
+  background-color: #254a79;
+}
+.calendar-tile {
+  background-color: #6c1717;
+}
+.administration-tile {
+  background-color: #0d7644;
+}
+.company-policies-tile {
+  background-color: #0a2a48;
+}
+
+/* admin page */
+.user-profiles-tile {
+  background-color: #d17224;
+}
+.user-roles-tile {
+  background-color: #b82929;
+}
+.user-records-tile {
+  background-color: #693478;
+}
+.user-appraisals-tile {
+  background-color: #3b7ca0;
+}
+.user-goals-tile {
+  background-color: #13d413;
+}
+.user-training-tile {
+  background-color: #2682c4;
+}
+
+.tile-text {
+  display: flex;
+  align-items: center;
+  position: relative;
+  left: 5%;
+  top: 75%;
+}
+
+.tile-icon {
+  display: flex;
+  align-items: center;
+  position: relative;
+  left: 5%;
+  top: 15%;
+}

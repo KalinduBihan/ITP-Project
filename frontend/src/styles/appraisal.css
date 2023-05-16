@@ -1,0 +1,314 @@
+/*Appraisal Home*/
+
+.appraisalHome{
+    margin-top: 50px;
+   
+  }
+  
+  .appraisal-container {
+    display: grid;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    grid-template-columns: repeat(4, 1fr);
+    
+  }
+  
+  .appraisal-card {
+    width: 300px;
+    height: 200px;
+    background-color: #f2f2f2;
+    margin-top: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    overflow:hidden;
+    margin-bottom: 30px;
+    background-color: #CCD1EB;
+    color: #3E76B8;
+   
+  }
+  
+  h3.appraisee-name {
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 5px;
+   
+  }
+  
+  .appraisal-card p {
+    font-size: 16px;
+  }
+  .appraisal-card:hover{
+    cursor: pointer;
+    box-shadow: 0 8px 32px -4px #2b3644;
+  }
+  
+  .appraisal-home-button {
+    background-color: #3E76B8;
+    color: white;
+    border: none;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100px;
+    margin-right: 50px;
+    opacity: 1;
+    transition: 0.3s;
+    border-radius: 15px;
+  }
+  .appraisal-card button:hover {opacity: 0.6}
+  
+  .profile-picture {
+    width: 50px;
+    height: 160px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    font-weight: bold;
+  }
+  
+  .appraisal-home-btn-container {
+    display: flex;
+  }
+  
+  .appraisal-card button {
+    margin-right: 10px;
+  }
+  
+  button.add-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3E76B8;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 12px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-block-end: 50px;
+    position: absolute; /* set button position to absolute */
+    top: 100px; /* set button distance from top */
+    right: 130px; /* set button distance from right */
+  }
+  
+  /*Create and update Appraisal Process*/
+
+  h3.process-title{
+    font-size: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    margin-top: 50px;
+    
+  }
+  .appraisal-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin-left: 150px;
+  }
+  form.process-form{
+    margin-top: -20%;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+  }
+  form.process-form-update{
+    margin-top: 2%;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+  }
+
+  .process-form-value input{
+    width: 75%;
+    margin-bottom: 1rem;
+    height: 35px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    box-shadow: none;
+    padding: 10px;
+  }
+  .btnAdd{
+    background-Color: blue;
+     width: 85px;
+     margin-Left: 10px;
+    height: fit-content;
+  }
+  .appraisal-form-table{
+    width: 75%;
+  }
+
+  /*My Appraisals*/
+
+  table.my-appraisal-form{
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  .my-appraisal-form th,td{
+    text-align: left;
+    padding: 8px;
+  }
+  .my-appraisal-form tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  .my-appraisal-form th{
+    background-color: #3E76B8;
+    color: white;
+  }
+
+  /*Appraisal Request*/
+  table.appraisal-request-form{
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  .appraisal-request-form th,td{
+    text-align: left;
+    padding: 8px;
+  }
+  .appraisal-request-form tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  .appraisal-request-form th{
+    background-color: #3E76B8;
+    color: white;
+  }
+
+  /*Appraisal Home single*/
+
+  .appraisal-heading{
+    margin-top: 50px;
+    font-size: 28px;
+    margin-bottom: 50px;
+  }
+
+  
+  .my-appraisal-title {
+    background-color: #CDC7F4;
+    width: 42%;
+  }
+
+  .tiles-common:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+    box-shadow: 0 8px 32px -4px #2b3644;
+    transition: transform 0.6s;
+  }
+  .appraisal-req--title{
+  background-color: #F5C7DB;
+  width: 30%;
+}
+
+
+.tile-text-my {
+  display: flex;
+  align-items: center;
+  position: relative;
+  left: 5%;
+  top: 75%;
+  color: #7503A6;
+}
+
+.tile-text-req{
+  display: flex;
+  align-items: center;
+  position: relative;
+  left: 5%;
+  top: 75%;
+  color: #F04198;
+}
+
+.tile-icon {
+  display: flex;
+  align-items: center;
+  position: relative;
+  left: 5%;
+  top: 15%;
+}
+
+/*appraisal question form*/
+
+.create-question label, input{
+  display: block;
+}
+  
+.create-question input{
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+} 
+  
+.create-question button{
+  background: var(--primary);
+  border: 0;
+  color: #fff;
+  padding: 10px;
+  font-family: "Poppins";
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.create-question div.error{
+  padding: 10px;
+  background: #ffefef;
+  border: 1px solid var(--error);
+  color: var(--error);
+  border-radius: 4px;
+  margin: 20px 0;
+}
+
+.create-question input.error {
+  border: 1px solid var(--error);
+}
+
+.create-question code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+button.appraisal-button{
+  background: blue;
+  border: 0;
+  color: #fff;
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+button.appraisal-delete-button{
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+  background: #f1f1f1;
+  padding: 6px;
+  border-radius: 50%;
+  color: #333;
+}
+
+.appraisal-delete{
+  border: no;
+}
+
+.material-symbols-outlined1 {
+  position:absolute;
+  top: 0;
+  right: 0;
+}

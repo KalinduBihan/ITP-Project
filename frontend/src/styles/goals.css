@@ -1,0 +1,292 @@
+/*Appraisal Home*/
+
+.goalsHome{
+    margin-top: 50px;
+   
+  }
+  
+  .goals-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+  }
+
+  .goals{
+    width:60%
+  }
+
+  .goals-2{
+    width:40%;
+    margin-top:100px;
+  }
+  
+  .goals-card {
+    width: 300px;
+    height: 200px;
+    background-color: #f2f2f2;
+    margin-top: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    overflow:hidden;
+    margin-bottom: 30px;
+    background-color: #CCD1EB;
+    color: #3E76B8;
+   
+  }
+  
+  h3.goals-name {
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 5px;
+   
+  }
+  
+  .goals-card p {
+    font-size: 16px;
+  }
+  .goals-card:hover{
+    cursor: pointer;
+    box-shadow: 0 8px 32px -4px #2b3644;
+  }
+  
+  .goals-home-button {
+    background-color: #697179;
+    color: white;
+    border: none;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100px;
+    margin-right: 50px;
+    opacity: 1;
+    transition: 0.3s;
+    border-radius: 15px;
+  }
+  .goals-card button:hover {opacity: 0.6}
+  
+  .profile-picture {
+    width: 50px;
+    height: 160px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    font-weight: bold;
+  }
+  
+  .goals-home-btn-container {
+    display: flex;
+  }
+  
+  .goals-card button {
+    margin-right: 10px;
+  }
+  
+  button.add-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3E76B8;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 12px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-block-end: 50px;
+    position: absolute; /* set button position to absolute */
+    top: 100px; /* set button distance from top */
+    right: 130px; /* set button distance from right */
+  }
+  
+  /*Create and update Appraisal Process*/
+
+  h3.process-title{
+    font-size: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    margin-top: 50px;
+    
+  }
+  .goals-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin-left: 150px;
+  }
+  form.process-form{
+    margin-top: -20%;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+  }
+  form.process-form-update{
+    margin-top: 2%;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+  }
+
+  .process-form-value input{
+    width: 75%;
+    margin-bottom: 1rem;
+    height: 35px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    box-shadow: none;
+    padding: 10px;
+  }
+  .btnAdd{
+    background-Color: blue;
+     width: 85px;
+     margin-Left: 10px;
+    height: fit-content;
+  }
+  .goals-form-table{
+    width: 75%;
+  }
+
+
+  
+  div.error{
+    padding: 10px;
+    background: #ffefef;
+    border: 1px solid var(--error);
+    color: var(--error);
+    border-radius: 4px;
+    margin: 20px 0;
+  }
+  
+  input.error {
+    border: 1px solid var(--error);
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+  
+
+  .blueButton {
+    background-color: #316f69; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+ 
+  }
+  .blueButton:hover {
+    background-color:#0a6480;
+  }
+  .blueButton:active {
+    position:relative;
+    top:1px;
+  }
+
+  .inputBar{
+    padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+  width: 100%;
+  box-sizing: border-box;
+  }
+  
+  .searchBar{
+    display: block;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 500px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+
+  /*Forms */
+  .goalForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    border-color: #316f69;
+    background-color: #bed3e8;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 90px;
+  }
+  
+  .goalForm h3 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+    margin-top: 10px;
+  }
+  
+  .goalForm label {
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .goalForm input[type="text"],
+  .goalForm input[type="date"],
+  .goalForm  textarea {
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    font-size: 1rem;
+    width: 350px;
+    margin-bottom: 10px;
+  }
+  
+  .goalForm input[type="radio"] {
+    margin: 5px;
+    display: inline-block;
+  }
+
+  .goalForm select {
+    font-size: 16px;
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: none;
+    background-color: #fff;
+    color: #555;
+    outline: none;
+    transition: border-color 0.2s ease-in-out;
+    width:350px;
+  }
+  
+  .goalForm select:focus {
+    border-color: #007bff;
+  }
+  
+  
+  .error {
+    border: 2px solid red;
+  }
+  
+  
+  
+  
+  
+  
+  
+  

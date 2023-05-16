@@ -1,0 +1,257 @@
+
+.userProfilesTable {
+    width: 80%;
+    border-collapse: collapse;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    font-size: 1em;
+    overflow: hidden;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+    
+  }
+
+  .userProfileHeading{
+    color: #141111;
+    text-align: center;
+  }
+  
+.userProfilesTable thead tr {
+    background-color: #3E76B8;
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+}
+
+.userProfilesTable th,
+.userProfilesTable td {
+    padding: 12px 15px;
+    border: 1px solid transparent;
+}
+
+.userProfilesTable tbody tr {
+    border-bottom: 1px solid #7e96f5;
+    background-color: #cdd4d8;
+}
+
+.userProfilesTable tbody tr:nth-of-type(even) {
+    background-color: #bfd2e9;
+}
+
+.userProfilesTable tbody tr:last-of-type {
+    border-bottom: 2px solid #868f9d;
+}
+
+.editBtn{
+  margin: 0px 0px 0px 0px;
+ }
+ 
+ .userProfileEditBtn{
+
+  font-size: 15px;
+  color: #0a0909;
+  border: none;
+  border-radius: 5px;
+  background-color: #2c99e7;
+  cursor: pointer;
+  padding-left: 12px;
+  padding-right: 12px;
+  margin-right: 20px;
+ }
+
+ .userProfileDeleteBtn{
+
+  font-size: 15px;
+  color: #0a0909;
+  border: none;
+  border-radius: 5px;
+  background-color: #4fd1f5;
+  cursor: pointer;
+  padding-left: 10px;
+  padding-right: 10px;
+ }
+
+ .userProfileDeleteBtn:hover{
+  background-image: linear-gradient(to right,  #f54f4f, #a93e14);
+ }
+
+ .userProfileEditBtn:hover{
+  background-image: linear-gradient(to right,  #2c99e7, #5007aa);
+ }
+
+ .userProfileHomeHeading{
+    font-size: 2rem;
+    margin-top: 20px;
+    margin-bottom: 1rem;
+    text-align: center;
+    color: black;
+ }
+    
+ .userProfileHomeContainer{
+  display: flex;
+}
+
+ .userProfileSearch {
+    display: inline-block;
+    margin-left: 318px;
+    margin-top: 30px;
+  }
+  
+  .userProfileSearch input[type=text] {
+    padding: 8px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    width: 400px;
+    transition: all 0.3s ease-in-out;
+    border-radius: 10px;
+  
+  }
+  
+  .userProfileSearch input[type=text]:focus {
+    border-color: #2196F3;
+    outline: none;
+  }
+  
+  .userProfileSearch button:hover {
+    background-color: #0b7dda;
+  }
+  
+  
+  .userProfileRegBtn{
+    margin-left: 138px;
+    display: inline;
+    margin-top: 38px;
+   }
+   .userProfileRegBtn button{ 
+    width: 130%;
+    padding: 10px;
+    display: block;
+    font-size: 16px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    background-color: #23cd6d;
+    cursor: pointer;
+    transition: 0.3%;
+   }
+  
+   .userProfileRegBtn button:hover{
+    background-image: linear-gradient(to right,  #23cd6d, #28aa07);
+   }
+
+   .userProfileGenBtn{
+    margin-left: 30px;
+    display: inline;
+    margin-top: 38px;
+
+   }
+
+   .userProfileGenBtn button{
+    width: 130%;
+    padding: 10px;
+    display: block;
+    font-size: 16px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    background-color: #d8790d;
+    cursor: pointer;
+    transition: 0.3%;
+   }
+
+   .userProfileGenBtn button:hover{
+    background-image: linear-gradient(to right,  #d8790d, #8e5903);
+   }
+
+   .userProfileAnalyzeBtn{
+    margin-left: 30px;
+    display: inline;
+    margin-top: 38px;
+   }
+
+   .userProfileAnalyzeBtn button{
+    width: 130%;
+    padding: 10px;
+    display: block;
+    font-size: 16px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    background-color: #1d3ee6;
+    cursor: pointer;
+    transition: 0.3%;
+   }
+
+   .userProfileAnalyzeBtn button:hover{
+    background-image: linear-gradient(to right,  #1d3ee6, #290f7d);
+   }
+
+   .userProfileMailBtn{
+    margin-left: 30px;
+    display: inline;
+    margin-top: 38px;
+   }
+
+   .userProfileMailBtn button{
+    width: 220%;
+    padding: 10px;
+    display: block;
+    font-size: 16px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    background-color: #868f08;
+    cursor: pointer;
+    transition: 0.3%;
+   }
+
+   .userProfileMailBtn button:hover{
+    background-image: linear-gradient(to right,  #868f08, #808312);
+   }
+
+   .card-container-hr,
+   .card-container-mgt,
+   .card-container-it {
+    display: inline-block;
+    margin: 20px;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    width: 200px;
+    text-align: center;
+    border-radius: 50%;
+    margin-left: 170px;
+  }
+
+  .card-container-it{
+    background-image: linear-gradient(to right, #e951af, #8f068d);
+  }
+
+  .card-container-hr{
+    background-image: linear-gradient(to right, #61e857, #097c28);
+  }
+
+  .card-container-mgt{
+    background-image: linear-gradient(to right, #e5ec26, #a59507);
+  }
+  .card-container h2 {
+    font-size: 24px;
+    margin-top: 0;
+  }
+
+  .card-container p {
+    font-size: 16px;
+    margin-bottom: 0;
+  }
+
+  .card-icon{
+    width: 80px;
+    height: 80px;
+  }
+
+
+  

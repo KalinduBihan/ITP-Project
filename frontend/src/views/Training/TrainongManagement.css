@@ -1,0 +1,297 @@
+/* google font */
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;800&family=VT323&display=swap'); */
+
+/* layout */
+:root {
+  --primary: #1aac83;
+  --error: #e7195a;
+}
+body {
+  background: #f1f1f1;
+  margin: 0;
+  font-family: "Poppins";
+}
+/* header {
+  background: #fff;
+} */
+header .container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header a {
+  color: #333;
+  text-decoration: none;
+}
+.pages{
+  max-width: 1400px;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+/* pages */
+.traininghome {
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  gap: 100px;
+}
+.course-details {
+  background: #fff;
+  border-radius: 4px;
+  margin: 20px auto;
+  padding: 20px;
+  position: relative;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.05);
+}
+.CompleteLec{
+  align-items: flex-end;
+}
+.course-details h4 {
+  margin: 0 0 10px 0;
+  font-size: 1.2em;
+  color: var(--primary);
+}
+.course-details p {
+  margin: 0;
+  font-size: 0.9em;
+  color: #353434;
+}
+
+.course-details span {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+  background: #f1f1f1;
+  padding: 6px;
+  border-radius: 50%;
+  color: #333;
+}
+
+/* new course form */
+label, input, textarea {
+  display: block;
+}
+
+input {
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.TrainingButton {
+  background: var(--primary);
+  background-color: #1a6dac;
+  border: 0;
+  color: #fff;
+  padding: 10px;
+  font-family: "Poppins";
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+div.error {
+  padding: 10px;
+  background: #ffefef;
+  border: 1px solid var(--error);
+  color: var(--error);
+  border-radius: 4px;
+  margin: 20px 0;
+}
+input.error {
+  border: 1px solid var(--error);  
+}
+
+/* update form */
+form.update{
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 4px;
+}
+
+/* training panel buttons */
+button.TrainingUpdate {
+  background: var(--primary);
+  background-color: #1a6dac;
+  border: 0;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  color: #fff;
+  padding: 10px;
+  font-family: "Poppins";
+  border-radius: 4px;
+  cursor: pointer;
+}
+.CompleteLeccheck{
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  margin: 13px;
+  margin-left: 10px;
+  padding: 10px;
+}
+input[type="checkbox"] {
+  transform: scale(1.5);
+}
+.CompleteLec {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px;
+}
+
+button.TrainingAddcontent {
+  background: var(--primary);
+  background-color: #1a6dac;
+  border: 0;
+  position: absolute;
+  bottom: 20px;
+  right: 100px;
+  color: #fff;
+  padding: 10px;
+  font-family: "Poppins";
+  border-radius: 4px;
+  cursor: pointer;
+}
+button.GeneratePDF {
+  background: var(--primary);
+  background-color: #1a6dac;
+  border: 0;
+  /* position: absolute; */
+  bottom: 20px;
+  right: 100px;
+  color: #fff;
+  padding: 10px;
+  font-family: "Poppins";
+  border-radius: 4px;
+  cursor: pointer;
+}
+.description {
+  width: 100%;
+}
+.create{
+  width: 75%;
+}
+
+.course-info {
+  border-collapse: collapse;
+  width: 95%;
+}
+
+.course-info td {
+  padding: 10px;
+  border: 1px solid transparent;
+  text-align: left;
+  vertical-align: top;
+}
+
+.course-info img {
+  display: block;
+  margin: 0%;
+} 
+
+.course-info p {
+  margin: 5px 0;
+}
+
+.course-info td:nth-child(1) {
+  width: 30%;
+}
+
+ /* Search bar */
+ .mb-3 {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+  align-items: flex-end;
+}
+
+/* Enroll to course */
+.course-details form {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.course-details input {
+  width: 150px;
+  margin-right: 10px;
+}
+
+/* Total course count */
+.courseCount {
+  background-color: #1a6dac;
+  border: 1px solid #dddddd;
+  border-radius: 10px;
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 13%;
+  height: 70px;
+  float: right;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card.completed-count {
+
+  background-color: #1a6dac;
+  border: 1px solid #dddddd;
+  border-radius: 10px;
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 13%;
+  height: 70px;
+  float: right;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 22px;
+  right: 10px;
+  margin-top: 70px;
+  margin-right: 67px;
+}
+
+.card.completed-count .card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card.completed-count .card-title {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.card.completed-count .card-text {
+  font-size: 1.2rem;
+  margin-bottom: 0;
+}
+.homeViewLec {
+  margin-top: 70px; 
+}
+
+.containerAssign {
+  background-color: #fff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  padding: 20px;
+  margin: 0 auto;
+  width: 55%;
+}

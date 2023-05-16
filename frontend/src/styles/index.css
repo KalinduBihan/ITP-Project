@@ -1,0 +1,298 @@
+
+/*google font*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+/*layouts*/
+
+:root{
+  --primary : #1aac83;
+  --error : #e7195a;
+}
+
+body{
+  font-family: 'Iceberg', monospace;
+  padding: 0;
+  margin: 0;  
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+header{
+  background: #fff;
+}
+
+header .container{
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header a{
+  color: #333;
+  text-decoration: none;
+
+}
+
+.pages{
+  max-width: 1400px;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+.home{
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  gap: 100px;
+}
+
+label{
+  display: block;
+}
+/*Meka uncomment karanna epa time input eka awul gahanawa*/
+/* input {
+  display: block;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+} */
+
+.loginForm{
+  font-family: 'Iceberg', monospace;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 30%;
+  padding: 10px;
+  margin-top:5%;
+  background-color: #b6bdc7;
+  border-radius: 15px;
+}
+.usernameBox {
+  width: 99%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+
+.passwordBox {
+  width: 99%;
+  align-content: center;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+
+.loginTopic{
+  font-family: 'Iceberg', monospace;
+  letter-spacing: 5px; 
+  width: 100%;
+}
+.loginLabel{
+  font-family: 'Iceberg', monospace;
+}
+
+.loginBtn {
+  background: var(--primary);
+  border: 0;
+  color: #fff;
+  padding: 10px;
+  font-family: "Iceberg";
+  font-size: large;
+  border-radius: 4px;
+  cursor: pointer;
+} 
+.loginBtn:hover{
+  background-color:#2dc298 ;
+}
+
+
+.question-details{
+  background: #fff;
+  border-radius: 4px;
+  margin: 20px auto;
+  padding: 20px;
+  position: relative;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0,0.05);
+}
+
+.question-details h4{
+  margin: 0 0 10px 0;
+  font-size: 1.2em;
+  color: var(--primary);
+}
+
+.question-details p{
+  margin: 0;
+  font-size:0.9em;
+  color: #555;
+}
+.question-details span{
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+  background: #f1f1f1;
+  padding: 6px;
+  border-radius: 50%;
+  color: #333;
+}
+
+div.error{
+  padding: 10px;
+  background: #ffefef;
+  border: 1px solid var(--error);
+  color: var(--error);
+  border-radius: 4px;
+  margin: 20px 0;
+}
+
+input.error {
+  border: 1px solid var(--error);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* show password checkbox */
+.chkBox {
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  width: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+  position: relative;
+  display: inline;
+  width: 20px;
+  height: 20px;
+}
+
+/* enter time form */
+
+.enterTimeInput{
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  width: 13%;
+  font-size: 20px;
+  border: 1px solid #adabab;
+  border-radius: 4px;
+  box-sizing: border-box;
+  display:block
+}
+
+/* Input time */
+@import 'react-time-picker/dist/TimePicker.css';
+
+
+.blueButton {
+  width: 100px;
+  background-color:#0e9cc7;
+  border-radius:28px;
+  border:2px solid #0a6480;
+  display:inline-block;
+  cursor:pointer;
+  color:#ffffff;
+  font-family:Arial;
+  font-size:12px;
+  padding:9px 14px;
+  text-decoration:none;
+  text-shadow:0px 1px 0px #0a6480;
+margin: 10px;
+}
+.blueButton:hover {
+  background-color:#0a6480;
+}
+.blueButton:active {
+  position:relative;
+  top:1px;
+}
+
+.redButton {
+  width: 100px;
+  background-color:#c74545;
+  border-radius:28px;
+  border:2px solid #ab1954;
+  display:inline-block;
+  cursor:pointer;
+  color:#ffffff;
+  font-family:Arial;
+  font-size:12px;
+  padding:9px 14px;
+  text-decoration:none;
+  text-shadow:0px 1px 0px #de4f24;
+margin: 10px;
+}
+.redButton:hover {
+  background-color:#bd2a31;
+}
+.redButton:active {
+  position:relative;
+  top:1px;
+}
+
+.searchBar{
+  display: block;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  width: 500px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #3fb9d8;
+  text-align: left;
+  padding: 8px;
+}
+
+.my-date-picker {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  width: auto;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.fingerprintBox{
+  font-family: 'Iceberg', monospace;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 30%;
+  height: 300px;
+  padding: 10px;
+  margin-top:5%;
+  background-color: #b6bdc7;
+  border-radius: 15px;
+}

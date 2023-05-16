@@ -1,0 +1,35 @@
+.material-symbols-outlined {
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    padding: 0;
+    margin: 0;
+    font-size: 1.5rem;
+    transition: all 0.2s ease-in-out;
+}
+
+.material-symbols-outlined:hover {
+    transform: scale(1.2);
+}
+
+.up {
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    padding: 0;
+    margin: 0;
+    font-size: 1.5rem;
+    transition: all 0.2s ease-in-out;
+}
+
+.up:hover {
+    transform: scale(1.2);
+}
